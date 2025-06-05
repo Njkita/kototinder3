@@ -1,0 +1,53 @@
+name: kototinder3
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0
+  cached_network_image: ^3.3.0
+  equatable: ^2.0.5
+  shimmer: ^3.0.0
+  flutter_swipe_button: ^2.0.0
+  get_it: ^8.0.3 
+  drift: ^2.13.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.1.1
+  connectivity_plus: ^6.1.4
+  mocktail: ^1.0.0
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.0
+  path: ^1.8.3
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^10.0.0
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  build_runner: ^2.4.6
+  drift_dev: ^2.12.2
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/cat_paw.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/cat_paw.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FF5722"
+  adaptive_icon_foreground: "assets/icons/cat_paw.png"
